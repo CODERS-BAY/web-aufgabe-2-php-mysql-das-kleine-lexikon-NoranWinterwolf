@@ -1,0 +1,12 @@
+body {
+    font-family: 'Courgette', cursive;
+    background-color: rgb(47, 65, 49);
+    background: url("../img/background.jpg");
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+}
