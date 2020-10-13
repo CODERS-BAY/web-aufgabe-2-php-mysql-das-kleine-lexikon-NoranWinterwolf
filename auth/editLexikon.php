@@ -17,8 +17,9 @@ define('SECURE', true);
 <body>
     <?php include('../inc/loggedNav.inc.php'); ?>
     <section class="container px-5 pt-3 mt-5 bg-light">
-        <!-- data-table for all entrys -->
-        <?php include('../auth/dataTable.inc.php'); ?>
+        <h2>Einträge bearbeiten</h1>
+            <!-- data-table for all entrys -->
+            <?php include('../auth/dataTable.inc.php'); ?>
     </section>
 
     <!-- Edit-Content Modal -->
@@ -69,16 +70,20 @@ define('SECURE', true);
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
+                    <h5>Titel</h5>
                     <p id="titleDelete"></p>
+                    <h5>Bild</h5>
                     <img class="img-fluid" id="imgDelete" alt="No Image"></img>
+                    <h5>Beschreibung</h5>
                     <p id="descriptionDelete"></p>
+                    <h5>Teaser</h5>
                     <p id="teaserDelete"></p>
-
                 </div>
                 <form method="post" id="delete_form">
                     <input type="hidden" id="deleteIMG" name="deleteIMG">
                     <input type="hidden" id="entryDelete_id" name="entry_id">
-                    <button class="btn btn-danger btn-lg ml-2" type="button" name="delete" id="delete">L&ouml;schen</button>
+                    <h6 class="text-danger">Zum löschen bestätigen. (Kann nicht Rückgängig gemacht werden!</h5>
+                        <button class="btn btn-danger btn-lg ml-5 mb-3" type="button" name="delete" id="delete">L&ouml;schen</button>
                 </form>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

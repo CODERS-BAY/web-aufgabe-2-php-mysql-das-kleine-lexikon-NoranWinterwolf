@@ -1,4 +1,4 @@
-<?php define('ROOTPATH', '/Web-php-uebung/');
+<?php define('ROOTPATH', '/web-aufgabe-2-php-mysql-das-kleine-lexikon-NoranWinterwolf/');
 session_start(); ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#loginContent" aria-controls="loginContent" aria-expanded="false" aria-label="Toggle navigation"></button>
